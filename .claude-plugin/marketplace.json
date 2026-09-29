@@ -1,0 +1,16 @@
+{
+  "name": "emotize-tools",
+  "description": "Plugins internos do Grupo Emotize para Claude Code.",
+  "owner": {
+    "name": "tbarcelos",
+    "email": "barcelos.tb@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "chatwoot-help-center",
+      "source": "./plugins/chatwoot-help-center",
+      "description": "Gerencia a Help Center do Chatwoot (portais, categorias, artigos) e sincroniza artigos com Markdown local.",
+      "version": "0.1.0"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "chatwoot-help-center",
+  "version": "0.1.0",
+  "description": "Gerencia a Help Center do Chatwoot (portais, categorias, artigos) e sincroniza artigos com Markdown local.",
+  "author": { "name": "tbarcelos", "email": "barcelos.tb@gmail.com" },
+  "keywords": ["chatwoot", "help-center", "knowledge-base", "mcp"]
+}
