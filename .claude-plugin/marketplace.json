@@ -1,6 +1,6 @@
 {
   "name": "emotize-tools",
-  "description": "Plugins internos do Grupo Emotize para Claude Code.",
+  "description": "Plugins do Grupo Emotize para Claude Code.",
   "owner": {
     "name": "tbarcelos",
     "email": "barcelos.tb@gmail.com"

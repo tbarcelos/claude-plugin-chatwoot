@@ -27,14 +27,25 @@ Artigos criados sem `author_id` usam o dono do token como autor.
 
 ## Instalação
 
-No Claude Code:
+Requer Node 18+ instalado. No Claude Code:
 
 ```
-/plugin marketplace add ~/Projects/emotize/claude-plugin-chatwoot
+/plugin marketplace add tbarcelos/claude-plugin-chatwoot
 /plugin install chatwoot-help-center@emotize-tools
 ```
 
-Reinicie a sessão para o MCP server subir.
+Ou pelo terminal:
+
+```bash
+claude plugin marketplace add tbarcelos/claude-plugin-chatwoot
+claude plugin install chatwoot-help-center@emotize-tools
+```
+
+Abra uma sessão nova para o MCP server subir. Para atualizar depois:
+`claude plugin marketplace update emotize-tools`.
+
+No app desktop, prefira colocar as variáveis no bloco `env` do `~/.claude/settings.json`
+em vez de `export` no shell — o app nem sempre herda o ambiente do terminal.
 
 ## Sync com Markdown
 
